@@ -1,0 +1,1382 @@
+﻿Log file open, 11/02/20 15:47:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: REWIND
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.099457
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername=lugalu -epicuserid=0df8fbb2ade24fc7a3409efb4eca3eaf -epiclocale=en
+LogInit: Base Directory: D:/GAMES/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.02-18.47.44:545][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.02-18.47.44:545][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:546][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.02-18.47.44:546][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.02-18.47.44:547][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.02-18.47.44:547][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.02-18.47.44:547][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:547][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:553][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.02-18.47.44:553][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.02-18.47.44:554][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.02-18.47.44:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.02-18.47.44:555][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-18.47.44:555][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.02-18.47.44:558][  0]LogHAL: Display: Platform has ~ 20 GB [21393940480 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.02-18.47.44:558][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.02-18.47.44:558][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.02-18.47.44:558][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.02-18.47.44:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Scalability.ini]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.02-18.47.44:560][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Production/UnrealProjects/REWIND/Saved/Config/Windows/Engine.ini]
+[2020.11.02-18.47.44:561][  0]LogInit: Computer: DESKTOP-795PA30
+[2020.11.02-18.47.44:561][  0]LogInit: User: luizj
+[2020.11.02-18.47.44:561][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.02-18.47.44:561][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.02-18.47.44:561][  0]LogMemory: Memory total: Physical=19.9GB (20GB approx)
+[2020.11.02-18.47.44:561][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.02-18.47.44:561][  0]LogMemory: Process Physical Memory: 106.43 MB used, 106.43 MB peak
+[2020.11.02-18.47.44:561][  0]LogMemory: Process Virtual Memory: 100.61 MB used, 100.61 MB peak
+[2020.11.02-18.47.44:561][  0]LogMemory: Physical Memory: 6920.53 MB used,  13482.32 MB free, 20402.85 MB total
+[2020.11.02-18.47.44:561][  0]LogMemory: Virtual Memory: 5139.35 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.11.02-18.47.44:624][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.02-18.47.44:669][  0]LogInit: Using OS detected language (en-US).
+[2020.11.02-18.47.44:669][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.02-18.47.44:670][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.02-18.47.44:873][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.02-18.47.44:911][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.02-18.47.44:911][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.02-18.47.45:171][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.02-18.47.45:171][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.02-18.47.45:171][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.02-18.47.45:171][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.02-18.47.45:269][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.11.02-18.47.45:269][  0]LogD3D11RHI:       6052/0/10201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.02-18.47.45:272][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.02-18.47.45:272][  0]LogD3D11RHI:       0/0/10201 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.02-18.47.45:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.02-18.47.45:281][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.02-18.47.45:281][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.02-18.47.45:281][  0]LogWindows: EnumDisplayDevices:
+[2020.11.02-18.47.45:281][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.11.02-18.47.45:282][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.11.02-18.47.45:282][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.11.02-18.47.45:282][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.11.02-18.47.45:283][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.02-18.47.45:283][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.11.02-18.47.45:283][  0]LogD3D11RHI:   Driver Version: 457.09 (internal:27.21.14.5709, unified:457.09)
+[2020.11.02-18.47.45:283][  0]LogD3D11RHI:      Driver Date: 10-22-2020
+[2020.11.02-18.47.45:283][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.11.02-18.47.45:359][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.02-18.47.45:359][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.02-18.47.45:375][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.02-18.47.45:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.02-18.47.45:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.11.02-18.47.45:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.02-18.47.45:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.02-18.47.45:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.02-18.47.45:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.02-18.47.45:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.02-18.47.45:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.02-18.47.45:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.02-18.47.45:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.02-18.47.45:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.02-18.47.45:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.02-18.47.45:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.02-18.47.45:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.02-18.47.45:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.02-18.47.45:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.02-18.47.46:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.02-18.47.46:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.02-18.47.46:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.02-18.47.46:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.02-18.47.46:032][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.02-18.47.46:036][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.02-18.47.46:063][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Production/UnrealProjects/REWIND/Intermediate/Shaders/WorkingDirectory/15996/).
+[2020.11.02-18.47.46:063][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/luizj/AppData/Local/Temp/UnrealShaderWorkingDir/8B23134C4481C80992EEF5BCED1D5BC3/'.
+[2020.11.02-18.47.46:064][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.02-18.47.46:064][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.02-18.47.46:064][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.02-18.47.46:954][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/luizj/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/luizj/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Production/UnrealProjects/REWIND/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Production/UnrealProjects/REWIND/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.02-18.47.47:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.02-18.47.47:036][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.02-18.47.47:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.02-18.47.47:036][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.02-18.47.47:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luizj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.02-18.47.47:048][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.02-18.47.47:048][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.02-18.47.47:083][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.11.02-18.47.47:085][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.02-18.47.47:086][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.02-18.47.47:154][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.11.02-18.47.47:521][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.02-18.47.47:708][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.02-18.47.47:709][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.02-18.47.47:709][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.02-18.47.47:709][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.02-18.47.47:709][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.02-18.47.47:727][  0]LogNetVersion: REWIND 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2285072207)
+[2020.11.02-18.47.49:061][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.055275 seconds
+[2020.11.02-18.47.49:071][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.11.02-18.47.49:071][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.11.02-18.47.49:071][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.02-18.47.49:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.02-18.47.49:583][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.02-18.47.49:584][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.47.49:584][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.47.49:584][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.47.49:640][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.49:640][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.49:642][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.49:644][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.49:645][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.49:747][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.02-18.47.49:757][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.02-18.47.49:757][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.02-18.47.49:853][  0]LogOcInput: OculusInput pre-init called
+[2020.11.02-18.47.49:861][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.02-18.47.49:861][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.02-18.47.49:940][  0]LogEngine: Initializing Engine...
+[2020.11.02-18.47.49:941][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.02-18.47.49:943][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.02-18.47.50:445][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.02-18.47.50:455][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-18.47.50:481][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-18.47.50:482][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-18.47.50:482][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-18.47.50:482][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-18.47.50:482][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Name: Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Sample Rate: 44100
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: Channel Order:
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-18.47.50:552][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-18.47.50:582][  0]LogAudioMixer: Display: Using Audio Device Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.47.50:589][  0]LogInit: FAudioDevice initialized.
+[2020.11.02-18.47.50:589][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.02-18.47.50:825][  0]LogDerivedDataCache: Saved boot cache 0.24s 78MB C:/Users/luizj/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.11.02-18.47.50:830][  0]LogInit: Texture streaming: Enabled
+[2020.11.02-18.47.50:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.02-18.47.50:843][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.02-18.47.50:845][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.02-18.47.50:924][  0]LogInit: Transaction tracking system initialized
+[2020.11.02-18.47.50:938][  0]BlueprintLog: New page: Editor Load
+[2020.11.02-18.47.50:973][  0]LocalizationService: Localization service is disabled
+[2020.11.02-18.47.55:254][  0]LogFileCache: Scanning file cache for directory 'D:/Production/UnrealProjects/REWIND/Content/' took 0.01s
+[2020.11.02-18.47.55:254][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.02-18.47.55:254][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.02-18.47.56:148][  0]SourceControl: Source control is disabled
+[2020.11.02-18.47.56:148][  0]Cmd: MAP LOAD FILE="../../../../../../Production/UnrealProjects/REWIND/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.02-18.47.56:148][  0]LightingResults: New page: Lighting Build
+[2020.11.02-18.47.56:149][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-18.47.56:149][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-18.47.56:149][  0]MapCheck: New page: Map Check
+[2020.11.02-18.47.56:149][  0]LightingResults: New page: Lighting Build
+[2020.11.02-18.47.56:174][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.11.02-18.47.56:542][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.02-18.47.56:547][  0]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.47.56:554][  0]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.47.56:554][  0]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.47.56:554][  0]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.47.56:556][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.02-18.47.56:592][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.11.02-18.47.56:592][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.02-18.47.56:592][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2020.11.02-18.47.56:592][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.444
+[2020.11.02-18.47.56:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.47.56:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.47.56:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.47.56:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.47.56:811][  0]LogCollectionManager: Loaded 0 collections in 0.001200 seconds
+[2020.11.02-18.47.56:827][  0]LogFileCache: Scanning file cache for directory 'D:/Production/UnrealProjects/REWIND/Saved/Collections/' took 0.00s
+[2020.11.02-18.47.56:827][  0]LogFileCache: Scanning file cache for directory 'D:/Production/UnrealProjects/REWIND/Content/Developers/luizj/Collections/' took 0.00s
+[2020.11.02-18.47.56:827][  0]LogFileCache: Scanning file cache for directory 'D:/Production/UnrealProjects/REWIND/Content/Collections/' took 0.00s
+[2020.11.02-18.47.56:827][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3015 classes and 717 folders.
+[2020.11.02-18.47.56:829][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.02-18.47.56:938][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.02-18.47.56:942][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.11.02-18.47.56:957][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.47.56:995][  0]LogSlate: Took 0.000375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.02-18.47.56:998][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.02-18.47.57:004][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.02-18.47.57:098][  0]LogRenderer: Reallocating scene render targets to support 1252x692 Format 10 NumSamples 1 (Frame:1).
+[2020.11.02-18.47.57:219][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.02-18.47.57:220][  0]LogLoad: (Engine Initialization) Total time: 14.53 seconds
+[2020.11.02-18.47.57:220][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.02-18.47.57:270][  0]LogAssetRegistry: Asset discovery search completed in 10.1175 seconds
+[2020.11.02-18.47.57:276][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2020.11.02-18.47.57:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.02-18.47.57:316][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.02-18.47.58:429][ 64]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.47.58:429][ 64]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.47.58:429][ 64]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.47.58:445][ 66]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.47.59:636][142]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.47.59:636][142]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.47.59:636][142]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.47.59:651][144]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.00:843][220]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.00:843][220]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.00:843][220]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.00:860][222]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.02:055][298]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.02:055][298]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.02:055][298]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.02:071][299]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.03:268][376]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.03:268][376]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.03:268][376]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.03:289][378]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.04:477][454]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.04:477][454]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.04:477][454]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.04:493][455]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.05:359][514]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-18.48.05:375][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.48.05:375][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-18.48.05:375][514]PIE: New page: PIE session: FirstPersonExampleMap (Nov 2, 2020, 1:48:05 PM)
+[2020.11.02-18.48.05:377][514]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.02-18.48.05:378][514]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.02-18.48.05:378][514]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.02-18.48.05:396][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017703s)
+[2020.11.02-18.48.05:398][514]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.02-18.48.05:398][514]LogPlayLevel: PIE: World Init took: (0.002103s)
+[2020.11.02-18.48.05:398][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020202s)
+[2020.11.02-18.48.05:425][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-18.48.05:426][514]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-18.48.05:426][514]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-18.48.05:426][514]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Name: Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Is Default: Yes
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Sample Rate: 44100
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: Channel Order:
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-18.48.05:473][514]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-18.48.05:486][514]LogAudioMixer: Display: Using Audio Device Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.48.05:488][514]LogInit: FAudioDevice initialized.
+[2020.11.02-18.48.05:496][514]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.02-18.48.05:499][514]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.48.05:499][514]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.02-15.48.05
+[2020.11.02-18.48.05:499][514]LogWorld: Bringing up level for play took: 0.001692
+[2020.11.02-18.48.05:500][514]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.11.02-18.48.05:502][514]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.02-18.48.05:503][514]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.11.02-18.48.05:503][514]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.144
+[2020.11.02-18.48.05:503][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.48.06:488][570]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.06:488][570]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.06:488][570]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.06:503][570]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.08:502][708]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.08:503][708]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.08:503][708]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.08:516][709]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.10:518][847]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.10:518][847]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.10:518][847]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.10:529][848]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.11:725][925]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.11:725][925]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.11:725][925]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.11:736][926]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.12:933][  3]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.12:934][  3]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.12:934][  3]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.12:946][  4]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.14:142][ 81]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.14:143][ 81]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.14:143][ 81]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.14:158][ 82]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.16:156][219]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.16:156][219]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.16:156][219]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.16:172][221]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.17:365][297]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.17:365][297]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.17:365][297]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.17:378][298]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.18:573][375]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.18:573][375]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.18:573][375]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.18:590][377]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.19:784][453]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.19:784][453]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.19:784][453]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.19:800][454]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.21:798][591]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.21:798][591]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.21:798][591]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.21:816][592]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.23:810][729]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.23:811][729]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.23:811][729]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.23:824][730]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.25:019][807]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.25:019][807]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.25:019][807]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.25:032][808]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.27:033][946]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.27:033][946]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.27:033][946]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.27:051][948]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.28:242][ 24]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.28:242][ 24]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.28:242][ 24]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.28:258][ 26]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.29:451][102]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.29:451][102]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.29:451][102]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.29:466][103]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.31:460][239]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.31:461][239]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.31:461][239]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.31:474][240]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.32:669][317]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.32:669][317]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.32:669][317]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.32:685][319]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.33:876][395]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.33:876][395]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.33:876][395]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.33:889][396]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.35:888][534]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.35:888][534]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.35:889][534]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.35:905][536]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.37:099][612]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.37:099][612]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.37:099][612]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.37:112][612]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.39:111][750]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.39:111][750]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.39:111][750]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.39:128][752]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.40:320][828]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.40:320][828]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.40:320][828]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.40:331][829]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.41:527][906]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.41:527][906]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.41:527][906]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.41:541][907]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.42:736][984]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.42:736][984]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.42:736][984]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.42:751][986]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.43:945][ 62]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.43:945][ 62]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.43:945][ 62]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.43:962][ 64]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.45:154][140]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.45:154][140]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.45:154][140]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.45:169][142]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.46:364][218]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.46:364][218]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.46:364][218]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.46:377][219]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.47:574][296]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.47:574][296]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.47:574][296]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.47:586][297]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.49:588][434]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.49:588][434]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.49:588][434]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.49:603][436]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.50:794][512]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.50:794][512]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.50:794][512]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.50:810][514]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.52:003][590]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.52:003][590]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.52:003][590]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.52:035][590]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.54:018][727]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.54:019][727]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.54:019][727]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.54:035][728]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.56:030][865]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.56:030][865]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.56:031][865]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.56:043][866]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.48.58:045][  4]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.48.58:045][  4]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.48.58:045][  4]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.48.58:058][  5]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.00:059][143]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.00:059][143]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.00:059][143]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.00:076][145]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.01:267][221]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.01:267][221]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.01:267][221]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.01:281][222]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.02:477][299]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.02:477][299]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.02:477][299]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.02:491][300]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.03:688][377]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.03:688][377]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.03:688][377]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.03:704][379]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.03:950][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.49.03:967][398]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.11.02-18.49.03:987][398]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.11.02-18.49.03:987][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.49.03:987][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.49.03:987][398]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.02-18.49.03:987][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.49.03:988][398]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-18.49.03:988][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-18.49.03:993][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-18.49.03:994][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.49.03:998][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-18.49.04:021][398]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.49.04:025][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.49.04:028][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.11.02-18.49.04:081][400]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.11.02-18.49.04:894][438]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.04:894][438]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.04:894][438]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.04:910][440]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.06:305][483]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.06:305][483]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.06:305][483]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.06:446][483]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.08:320][489]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.08:320][489]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.08:320][489]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.08:468][489]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.10:336][495]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.10:336][495]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.10:336][495]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.10:489][495]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.12:353][501]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.12:353][501]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.12:353][501]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.12:509][501]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.14:369][507]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.14:369][507]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.14:369][507]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.14:521][507]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.16:385][513]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.16:385][513]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.16:386][513]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.16:537][513]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.18:400][519]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.18:400][519]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.18:400][519]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.18:542][519]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.20:416][525]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.20:416][525]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.20:417][525]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.20:558][525]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.22:433][531]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.22:433][531]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.22:433][531]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.22:573][531]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.24:448][537]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.24:448][537]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.24:448][537]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.24:584][537]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.26:464][641]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.26:464][641]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.26:464][641]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.26:479][642]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.28:475][777]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.28:476][777]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.28:476][777]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.28:491][779]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.29:686][855]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.29:686][855]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.29:686][855]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.29:702][857]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.30:894][933]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.30:894][933]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.30:894][933]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.30:909][935]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.32:103][ 11]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.32:103][ 11]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.32:103][ 11]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.32:118][ 12]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.34:116][149]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.34:116][149]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.34:116][149]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.34:129][149]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.36:127][286]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.36:127][286]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.36:127][286]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.36:143][288]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.37:338][364]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.37:338][364]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.37:338][364]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.37:355][366]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.38:545][442]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.38:545][442]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.38:545][442]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.38:560][444]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.39:756][520]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.39:756][520]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.39:756][520]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.39:772][522]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.40:964][598]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.40:964][598]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.40:965][598]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.40:982][600]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.42:174][676]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.42:174][676]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.42:174][676]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.42:189][678]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.43:381][754]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.43:382][754]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.43:382][754]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.43:398][755]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.45:398][892]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.45:398][892]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.45:398][892]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.45:410][892]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.47:411][ 30]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.47:411][ 30]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.47:412][ 30]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.47:426][ 32]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.48:622][108]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.48:622][108]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.48:622][108]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.48:633][109]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.49:829][186]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.49:829][186]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.49:829][186]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.49:841][187]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.51:843][325]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.51:843][325]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.51:843][325]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.51:857][326]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.53:510][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (corridor)
+[2020.11.02-18.49.53:855][456]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.53:855][456]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.53:855][456]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.53:871][457]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.55:868][595]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.55:868][595]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.55:868][595]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.55:881][596]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.57:077][673]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.57:077][673]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.57:077][673]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.57:093][674]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.49.59:090][807]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.49.59:090][807]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.49.59:090][807]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.49.59:105][808]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.01:105][945]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.01:105][945]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.01:105][945]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.01:124][945]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.03:119][ 81]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.03:119][ 81]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.03:119][ 81]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.03:140][ 83]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.05:332][231]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.05:332][231]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.05:332][231]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.05:347][232]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.07:346][368]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.07:346][368]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.07:346][368]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.07:357][369]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.09:359][506]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.09:360][506]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.09:360][506]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.09:373][507]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.11:373][641]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.11:373][641]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.11:373][641]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.11:385][642]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.12:582][719]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.12:582][719]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.12:583][719]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.12:599][721]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.13:790][797]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.13:790][797]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.13:790][797]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.13:814][798]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.15:803][934]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.15:803][934]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.15:803][934]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.15:822][936]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.18:017][ 86]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.18:017][ 86]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.18:018][ 86]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.18:038][ 88]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.19:228][157]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.19:228][157]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.19:229][157]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.19:245][159]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.20:439][219]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.20:439][219]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.20:439][219]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.20:459][221]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.21:648][276]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.21:649][276]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.21:649][276]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.21:667][278]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.22:426][316]LogActorFactory: Actor Factory created Cube
+[2020.11.02-18.50.22:859][335]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.22:859][335]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.22:859][335]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.22:872][336]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.23:801][405]LogActorFactory: Actor Factory created Cube
+[2020.11.02-18.50.24:872][470]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.24:872][470]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.24:872][470]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.24:884][470]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.26:888][607]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.26:888][607]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.26:889][607]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.26:906][609]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.28:097][685]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.28:097][685]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.28:097][685]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.28:111][685]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.30:109][821]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.30:109][821]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.30:109][821]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.30:126][823]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.31:317][898]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.31:317][898]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.31:317][898]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.31:334][900]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.32:525][975]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.32:525][975]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.32:525][975]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.32:539][976]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.33:734][ 53]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.33:734][ 53]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.33:734][ 53]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.33:758][ 54]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.35:748][192]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.35:748][192]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.35:748][192]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.35:761][193]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.37:763][332]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.37:763][332]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.37:763][332]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.37:780][333]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.39:779][471]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.39:779][471]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.39:780][471]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.39:797][473]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.41:995][623]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.41:995][623]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.41:995][623]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.42:012][625]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.43:204][700]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.43:204][700]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.43:204][700]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.43:222][701]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.45:216][837]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.45:216][837]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.45:216][837]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.45:233][839]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.46:424][914]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.46:424][914]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.46:424][914]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.46:441][916]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.47:632][992]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.47:632][992]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.47:632][992]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.47:650][994]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.48:841][ 69]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.48:841][ 69]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.48:841][ 69]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.48:858][ 71]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.50:049][146]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.50:049][146]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.50:049][146]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.50:098][147]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.52:064][240]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.52:064][240]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.52:064][240]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.52:083][241]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.54:078][368]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.54:078][368]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.54:078][368]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.54:096][368]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.56:091][456]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.56:091][456]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.56:092][456]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.56:108][457]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.57:164][498]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.02-18.50.58:108][538]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.50.58:108][538]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.50.58:108][538]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.50.58:126][539]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.50.58:983][602]Cmd: DELETE
+[2020.11.02-18.50.58:983][602]Cmd: ACTOR DELETE
+[2020.11.02-18.50.58:986][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-18.50.58:986][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-18.50.58:987][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.02-18.50.59:011][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.11.02-18.50.59:012][602]LogEditorActor: Deleted 3 Actors (0.029 secs)
+[2020.11.02-18.51.00:121][677]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.00:121][677]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.00:121][677]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.00:138][679]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.01:330][734]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.01:330][734]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.01:330][734]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.01:342][735]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.03:344][833]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.03:344][833]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.03:344][833]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.03:360][835]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.04:553][906]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.04:553][906]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.04:553][906]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.04:594][907]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.05:114][946]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.02-18.51.05:477][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2020.11.02-18.51.06:565][ 36]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.06:566][ 36]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.06:566][ 36]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.06:583][ 38]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.07:775][114]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.07:775][114]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.07:775][114]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.07:786][115]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.08:984][190]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.08:984][190]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.08:984][190]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.08:998][191]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.09:918][260]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.11.02-18.51.11:000][326]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.11:000][326]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.11:000][326]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.11:012][326]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.13:015][462]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.13:015][462]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.13:015][462]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.13:032][464]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.14:224][540]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.14:224][540]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.14:224][540]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.14:235][541]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.15:434][617]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.15:434][617]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.15:434][617]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.15:451][619]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.16:642][694]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.16:642][694]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.16:642][694]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.16:657][694]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.18:652][830]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.18:652][830]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.18:652][830]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.18:881][832]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.20:868][967]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.20:868][967]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.20:868][967]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.20:888][968]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.22:879][103]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.22:879][103]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.22:880][103]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.22:894][105]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.24:091][181]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.24:091][181]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.24:091][181]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.24:110][183]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.24:851][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2020.11.02-18.51.25:298][257]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.25:298][257]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.25:298][257]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.25:316][259]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.26:507][335]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.26:507][335]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.26:507][335]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.26:522][336]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.28:521][473]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.28:521][473]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.28:521][473]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.28:539][475]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.29:729][549]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.29:730][549]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.29:730][549]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.29:743][550]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.31:744][686]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.31:744][686]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.31:744][686]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.31:757][686]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.33:758][821]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.33:758][821]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.33:758][821]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.33:770][822]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.34:969][898]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.34:970][898]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.34:970][898]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.34:983][899]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.36:981][ 35]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.36:982][ 35]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.36:982][ 35]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.37:001][ 37]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.38:192][112]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.38:192][112]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.38:192][112]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.38:206][113]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.40:208][250]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.40:208][250]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.40:208][250]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.40:220][251]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.41:253][321]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.02-18.51.41:270][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.51.41:270][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.02-18.51.41:271][321]PIE: New page: PIE session: FirstPersonExampleMap (Nov 2, 2020, 1:51:41 PM)
+[2020.11.02-18.51.41:271][321]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.02-18.51.41:288][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016331s)
+[2020.11.02-18.51.41:289][321]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.02-18.51.41:289][321]LogPlayLevel: PIE: World Init took: (0.001663s)
+[2020.11.02-18.51.41:289][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018185s)
+[2020.11.02-18.51.41:317][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.02-18.51.41:318][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.02-18.51.41:318][321]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.02-18.51.41:318][321]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.02-18.51.41:369][321]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Name: Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Is Default: Yes
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Sample Rate: 44100
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Channel Count Used: 2
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Device Channel Count: 2
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: Channel Order:
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.02-18.51.41:370][321]LogAudioMixer: Display: 1: FrontRight
+[2020.11.02-18.51.41:384][321]LogAudioMixer: Display: Using Audio Device Headphones (4- EDIFIER W800BT Stereo)
+[2020.11.02-18.51.41:386][321]LogInit: FAudioDevice initialized.
+[2020.11.02-18.51.41:395][321]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.02-18.51.41:398][321]LogPhysics: Warning: Scale for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.MultiplePortal_2.r has a component set to zero, which will result in a bad body instance. Scale:X=3.575 Y=0.000 Z=4.063
+[2020.11.02-18.51.41:398][321]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.02-15.51.41
+[2020.11.02-18.51.41:398][321]LogWorld: Bringing up level for play took: 0.001677
+[2020.11.02-18.51.41:398][321]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.11.02-18.51.41:400][321]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.02-18.51.41:400][321]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.041
+[2020.11.02-18.51.41:400][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.51.42:221][368]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.42:221][368]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.42:222][368]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.42:236][369]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.44:235][505]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.44:235][505]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.44:235][505]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.44:246][505]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.46:247][643]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.46:247][643]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.46:247][643]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.46:259][644]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.47:455][721]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.47:455][721]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.47:455][721]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.47:471][723]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.48:662][799]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.48:662][799]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.48:662][799]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.48:678][801]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.49:870][877]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.49:870][877]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.49:870][877]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.49:885][879]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.51:080][955]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.51:080][955]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.51:080][955]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.51:083][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.51.51:083][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.51.51:083][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.51.51:084][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.51.51:084][955]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.02-18.51.51:084][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.51.51:084][955]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.11.02-18.51.51:084][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-18.51.51:093][955]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.51:095][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.02-18.51.51:095][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.02-18.51.51:099][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.02-18.51.51:122][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.11.02-18.51.51:127][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.02-18.51.51:130][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.11.02-18.51.51:189][959]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.11.02-18.51.53:194][ 52]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2020.11.02-18.51.53:194][ 52]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2020.11.02-18.51.53:194][ 52]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2020.11.02-18.51.53:256][ 53]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2020.11.02-18.51.54:079][ 71]MapCheck: New page: Map Check
+[2020.11.02-18.51.54:093][ 71]LightingResults: New page: Lighting Build - Nov 2, 2020, 1:51:54 PM
+[2020.11.02-18.51.54:106][ 71]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.11.02-18.51.54:106][ 71]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.02-18.51.54:979][ 71]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.873 s
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: 
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Math/Matrix.cpp] [Line: 8]
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: Stack: 
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdc599016 UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdbf9b21a UE4Editor-Core.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb5ff9113 UE4Editor-Engine.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb70ff84e UE4Editor-Engine.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb710e67e UE4Editor-Engine.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb7133a2e UE4Editor-Engine.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffd960ba21 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffd95c69c4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffd95edbff UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffd95c774d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffd8f12069 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb2be7813 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffb2c07217 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd876c6a UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd9525be UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd958430 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd931b84 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd9c1498 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd9d9281 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd959b95 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd83323f UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd8b9175 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd8a413e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffdd898f67 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffea764ca1 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.02-18.51.54:979][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffea75242f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffea767195 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffea74ec40 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff82004e6d8 USER32.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff82004e119 USER32.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007fffea768699 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff63c936db0 UE4Editor.exe!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff63c94c3ec UE4Editor.exe!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff63c94c4ca UE4Editor.exe!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff63c95ceae UE4Editor.exe!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff63c95fcbe UE4Editor.exe!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff820957034 KERNEL32.DLL!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: [Callstack] 0x00007ff821d5cec1 ntdll.dll!UnknownFunction []
+[2020.11.02-18.51.54:980][ 71]LogOutputDevice: Error: 
+[2020.11.02-18.51.54:985][ 71]LogStats:                SubmitErrorReport -  0.000 s
