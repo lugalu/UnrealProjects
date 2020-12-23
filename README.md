@@ -1,5 +1,5 @@
 # UnrealProjects
-My Unreal projects and brief explanation abou them
+My Unreal projects and brief explanation about them
 
 ## Legend of Zezinho
 A project made to my game 2D II class.
@@ -23,7 +23,6 @@ Maps:
 
 ## Rewind
 A project made for my own improvement, in the future I plan to port it to full C++ code.
-
 
 ### Features
 
