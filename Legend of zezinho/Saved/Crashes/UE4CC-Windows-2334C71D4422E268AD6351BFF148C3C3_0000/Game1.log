@@ -1,0 +1,635 @@
+﻿Log file open, 02/18/20 17:07:40
+LogInit:Display: Running engine for game: Game1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1507549404) SRandInit(1507549404).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100574
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.02.18-20.07.40:572][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.18-20.07.40:572][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.18-20.07.40:591][  0]LogInit: Computer: BRA--06
+[2020.02.18-20.07.40:591][  0]LogInit: User: Saga
+[2020.02.18-20.07.40:591][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.18-20.07.40:591][  0]LogInit: High frequency timer resolution =2.929685 MHz
+[2020.02.18-20.07.40:592][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.18-20.07.40:592][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.18-20.07.40:592][  0]LogMemory: Process Physical Memory: 272.74 MB used, 272.74 MB peak
+[2020.02.18-20.07.40:592][  0]LogMemory: Process Virtual Memory: 258.63 MB used, 258.63 MB peak
+[2020.02.18-20.07.40:592][  0]LogMemory: Physical Memory: 4857.86 MB used,  11466.76 MB free, 16324.62 MB total
+[2020.02.18-20.07.40:592][  0]LogMemory: Virtual Memory: 668.74 MB used,  11466.76 MB free, 134217728.00 MB total
+[2020.02.18-20.07.40:670][  0]LogInit: Using OS detected language (pt-BR).
+[2020.02.18-20.07.40:670][  0]LogInit: Using OS detected locale (pt-BR).
+[2020.02.18-20.07.41:526][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.18-20.07.41:574][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.02.18-20.07.41:574][  0]LogD3D11RHI:       4018/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.18-20.07.41:577][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.18-20.07.41:577][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.18-20.07.41:577][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.18-20.07.41:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.18-20.07.41:582][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.18-20.07.41:582][  0]LogWindows: EnumDisplayDevices:
+[2020.02.18-20.07.41:583][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.02.18-20.07.41:583][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.18-20.07.41:583][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.18-20.07.41:583][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.02.18-20.07.41:583][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.02.18-20.07.41:583][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.02.18-20.07.41:583][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.02.18-20.07.41:583][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.02.18-20.07.41:583][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.02.18-20.07.41:612][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.18-20.07.41:629][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.02.18-20.07.41:630][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/Saga/Desktop/Game1/Intermediate/Shaders/WorkingDirectory/6224/).
+[2020.02.18-20.07.41:630][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Saga/AppData/Local/Temp/UnrealShaderWorkingDir/470DD341469B3AD73A9636B27A9CEC91/'.
+[2020.02.18-20.07.41:630][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.02.18-20.07.42:764][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.02.18-20.07.42:820][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.02.18-20.07.42:881][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.02.18-20.07.42:938][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.02.18-20.07.42:997][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.02.18-20.07.43:055][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.02.18-20.07.43:120][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.02.18-20.07.43:182][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.02.18-20.07.43:232][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.02.18-20.07.43:291][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.02.18-20.07.43:351][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.02.18-20.07.43:413][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.02.18-20.07.43:473][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.02.18-20.07.43:528][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.02.18-20.07.43:583][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.02.18-20.07.43:687][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.02.18-20.07.43:687][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.02.18-20.07.43:731][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.02.18-20.07.43:833][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.02.18-20.07.43:866][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.02.18-20.07.43:922][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.02.18-20.07.43:978][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.02.18-20.07.44:033][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.02.18-20.07.44:086][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.02.18-20.07.44:086][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.02.18-20.07.44:658][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Saga/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Saga/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Saga/Desktop/Game1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Saga/Desktop/Game1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.18-20.07.44:747][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.18-20.07.44:764][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.18-20.07.44:776][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Saga/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.18-20.07.44:786][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.18-20.07.44:786][  0]LogSlate: Using Freetype 2.6.0
+[2020.02.18-20.07.44:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.18-20.07.44:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.18-20.07.45:124][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.18-20.07.45:196][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.02.18-20.07.45:366][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.18-20.07.45:416][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.02.18-20.07.45:471][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.02.18-20.07.45:471][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.02.18-20.07.45:471][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.02.18-20.07.46:048][  0]LogNetVersion: Game1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2875809436)
+[2020.02.18-20.07.46:115][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2020.02.18-20.07.46:182][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.042123 seconds
+[2020.02.18-20.07.46:188][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.02.18-20.07.46:188][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2020.02.18-20.07.46:188][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.18-20.07.46:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.02.18-20.07.48:964][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.18-20.07.49:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.18-20.07.49:608][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.02.18-20.07.50:071][  0]SourceControl: Informações Controle de origem desativado
+[2020.02.18-20.07.50:071][  0]SourceControl: Informações Controle de origem desativado
+[2020.02.18-20.07.50:129][  0]SourceControl: Informações Controle de origem desativado
+[2020.02.18-20.07.50:187][  0]SourceControl: Informações Controle de origem desativado
+[2020.02.18-20.07.50:980][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.18-20.07.51:662][  0]LogEngine: Initializing Engine...
+[2020.02.18-20.07.51:663][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.18-20.07.51:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.18-20.07.51:899][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.18-20.07.52:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.18-20.07.52:058][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.07.52:090][  0]LogInit: FAudioDevice initialized.
+[2020.02.18-20.07.52:141][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Saga/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.02.18-20.07.52:155][  0]LogInit: Texture streaming: Enabled
+[2020.02.18-20.07.52:262][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.18-20.07.52:512][  0]LogInit: Transaction tracking system initialized
+[2020.02.18-20.07.52:864][  0]BlueprintLog: New page: Carregar Editor
+[2020.02.18-20.07.53:931][  0]LocalizationService: Informações Localization service is disabled
+[2020.02.18-20.07.54:716][  0]LogConsoleResponse:Display: 
+[2020.02.18-20.07.54:890][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.18-20.07.54:890][  0]LogCook:Display: Mobile HDR setting 1
+[2020.02.18-20.07.55:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Saga/Desktop/Game1/Content/' took 0.02s
+[2020.02.18-20.07.56:084][  0]SourceControl: Informações Controle de origem desativado
+[2020.02.18-20.07.56:085][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/menu/inicio.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.18-20.07.56:089][  0]LightingResults: New page: Compilação de Iluminação
+[2020.02.18-20.07.56:135][  0]MapCheck: New page: Verificação de Mapa
+[2020.02.18-20.07.56:135][  0]LightingResults: New page: Compilação de Iluminação
+[2020.02.18-20.07.56:212][  0]LogTexture:Display: Building textures: Parado__1_ (BGRA8, 50X37)
+[2020.02.18-20.07.56:237][  0]LogTexture:Display: Building textures: Untitled-1 (BGRA8, 1920X1080)
+[2020.02.18-20.07.56:390][  0]LogTexture:Display: Building textures: menu (BGRA8, 384X240)
+[2020.02.18-20.07.56:402][  0]LogAIModule: Creating AISystem for world inicio
+[2020.02.18-20.07.56:403][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.18-20.07.56:416][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.18-20.07.56:461][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 44,944ms to complete.
+[2020.02.18-20.07.56:461][  0]LogFileHelpers: Loading map 'inicio' took 0.376
+[2020.02.18-20.07.56:686][  0]LogCollectionManager: Loaded 0 collections in 0.001987 seconds
+[2020.02.18-20.07.56:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Saga/Desktop/Game1/Saved/Collections/' took 0.01s
+[2020.02.18-20.07.56:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Saga/Desktop/Game1/Content/Developers/Saga/Collections/' took 0.01s
+[2020.02.18-20.07.56:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Saga/Desktop/Game1/Content/Collections/' took 0.01s
+[2020.02.18-20.07.56:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2020.02.18-20.07.56:902][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2329 classes and 491 folders.
+[2020.02.18-20.07.56:993][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.18-20.07.57:487][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.18-20.07.57:553][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.02.18-20.07.57:694][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.02.18-20.07.57:706][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.18-20.07.57:708][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.18-20.07.57:728][  0]LogSlate: Took 0.008494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.18-20.07.57:852][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2020.02.18-20.07.58:172][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.02.18-20.07.58:173][  0]LogLoad: (Engine Initialization) Total time: 19.51 seconds
+[2020.02.18-20.07.58:173][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2020.02.18-20.07.58:173][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.02.18-20.07.58:183][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.02.18-20.07.58:183][  0]LogOcInput: OculusInput pre-init called
+[2020.02.18-20.07.58:183][  0]LogHMD: Starting GearVRController plugin
+[2020.02.18-20.07.58:200][  0]LogAssetRegistry: Asset discovery search completed in 12.1070 seconds
+[2020.02.18-20.07.58:202][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.18-20.07.58:202][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2020.02.18-20.07.58:207][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.18-20.07.58:272][  0]LogSlate: Took 0.008582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.18-20.09.43:213][ 60]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.09.43:312][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Game/menu/inicio.inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio' with GeneratedClass '/Game/Game/menu/inicio.inicio_C' with ClassGeneratedBy '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio'
+[2020.02.18-20.09.43:313][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.09.43:318][ 60]PIE: New page: Sessão de PIE : inicio (18/02/2020 14:09:43)
+[2020.02.18-20.09.43:318][ 60]LogPlayLevel: Creating play world package: /Game/Game/menu/UEDPIE_0_inicio
+[2020.02.18-20.09.43:326][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007732s)
+[2020.02.18-20.09.43:327][ 60]LogAIModule: Creating AISystem for world inicio
+[2020.02.18-20.09.43:327][ 60]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2020.02.18-20.09.43:327][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/menu/inicio.inicio to /Game/Game/menu/UEDPIE_0_inicio.inicio (0.008717s)
+[2020.02.18-20.09.43:352][ 60]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.09.43:365][ 60]LogInit: FAudioDevice initialized.
+[2020.02.18-20.09.44:078][ 60]LogTexture:Display: Building textures: morto2 (BGRA8, 50X37)
+[2020.02.18-20.09.44:079][ 60]LogTexture:Display: Building textures: adventurer-die-04 (BGRA8, 50X37)
+[2020.02.18-20.09.44:079][ 60]LogTexture:Display: Building textures: adventurer-die-03 (BGRA8, 50X37)
+[2020.02.18-20.09.44:079][ 60]LogTexture:Display: Building textures: Parado__3_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:080][ 60]LogTexture:Display: Building textures: Parado__2_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:080][ 60]LogTexture:Display: Building textures: Abaixado (BGRA8, 50X37)
+[2020.02.18-20.09.44:081][ 60]LogTexture:Display: Building textures: opossum-1 (BGRA8, 36X28)
+[2020.02.18-20.09.44:089][ 60]LogTexture:Display: Building textures: carrot-3 (BGRA8, 17X19)
+[2020.02.18-20.09.44:090][ 60]LogTexture:Display: Building textures: hearth_vazio (BGRA8, 35X32)
+[2020.02.18-20.09.44:090][ 60]LogTexture:Display: Building textures: hearth (BGRA8, 35X32)
+[2020.02.18-20.09.44:097][ 60]LogTexture:Display: Building textures: adventurer-bow-02flechacorrigidaBG (BGRA8, 50X37)
+[2020.02.18-20.09.44:098][ 60]LogTexture:Display: Building textures: adventurer-bow-08 (BGRA8, 50X37)
+[2020.02.18-20.09.44:098][ 60]LogTexture:Display: Building textures: adventurer-bow-07 (BGRA8, 50X37)
+[2020.02.18-20.09.44:098][ 60]LogTexture:Display: Building textures: adventurer-bow-06 (BGRA8, 50X37)
+[2020.02.18-20.09.44:099][ 60]LogTexture:Display: Building textures: adventurer-bow-05 (BGRA8, 50X37)
+[2020.02.18-20.09.44:099][ 60]LogTexture:Display: Building textures: adventurer-bow-04 (BGRA8, 50X37)
+[2020.02.18-20.09.44:099][ 60]LogTexture:Display: Building textures: adventurer-bow-03 (BGRA8, 50X37)
+[2020.02.18-20.09.44:099][ 60]LogTexture:Display: Building textures: adventurer-bow-02 (BGRA8, 50X37)
+[2020.02.18-20.09.44:100][ 60]LogTexture:Display: Building textures: adventurer-bow-01 (BGRA8, 50X37)
+[2020.02.18-20.09.44:100][ 60]LogTexture:Display: Building textures: adventurer-bow-00 (BGRA8, 50X37)
+[2020.02.18-20.09.44:180][ 60]LogTexture:Display: Building textures: adventurer-die-02 (BGRA8, 50X37)
+[2020.02.18-20.09.44:181][ 60]LogTexture:Display: Building textures: Andando__6_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:183][ 60]LogTexture:Display: Building textures: Pulo__2_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:183][ 60]LogTexture:Display: Building textures: Pulo__1_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:184][ 60]LogTexture:Display: Building textures: Andando__5_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:184][ 60]LogTexture:Display: Building textures: Andando__4_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:184][ 60]LogTexture:Display: Building textures: Andando__3_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:185][ 60]LogTexture:Display: Building textures: opossum-6 (BGRA8, 36X28)
+[2020.02.18-20.09.44:185][ 60]LogAudioDerivedData:Display: Criando onda OGG flecha-voando__online-audio-converter_com_ do formato de áudio compactado
+[2020.02.18-20.09.44:370][ 60]LogTexture:Display: Building textures: Andando__2_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:370][ 60]LogTexture:Display: Building textures: Andando__1_ (BGRA8, 50X37)
+[2020.02.18-20.09.44:371][ 60]LogTexture:Display: Building textures: opossum-5 (BGRA8, 36X28)
+[2020.02.18-20.09.44:371][ 60]LogTexture:Display: Building textures: opossum-4 (BGRA8, 36X28)
+[2020.02.18-20.09.44:371][ 60]LogTexture:Display: Building textures: opossum-3 (BGRA8, 36X28)
+[2020.02.18-20.09.44:371][ 60]LogTexture:Display: Building textures: opossum-2 (BGRA8, 36X28)
+[2020.02.18-20.09.44:379][ 60]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.09.44:422][ 60]LogWorld: Bringing World /Game/Game/menu/UEDPIE_0_inicio.inicio up for play (max tick rate 0) at 2020.02.18-17.09.44
+[2020.02.18-20.09.44:422][ 60]LogWorld: Bringing up level for play took: 0.000778
+[2020.02.18-20.09.44:663][ 60]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2020.02.18-20.09.44:783][ 60]PIE: Informações Momento de início de reprodução no editor para /Game/Game/menu/UEDPIE_0_inicio 0,637
+[2020.02.18-20.09.44:783][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Game/menu/inicio.inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio' with GeneratedClass '/Game/Game/menu/inicio.inicio_C' with ClassGeneratedBy '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio'
+[2020.02.18-20.09.44:816][ 60]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2020.02.18-20.09.52:637][960]LogNet: Browse: /Game/Game/Map1
+[2020.02.18-20.09.52:637][960]LogLoad: LoadMap: /Game/Game/Map1
+[2020.02.18-20.09.52:649][960]Cmd: MEM
+[2020.02.18-20.09.52:664][960]LogMemory: Platform Memory Stats for Windows
+[2020.02.18-20.09.52:665][960]LogMemory: Process Physical Memory: 954.79 MB used, 1151.38 MB peak
+[2020.02.18-20.09.52:665][960]LogMemory: Process Virtual Memory: 1375.88 MB used, 1521.21 MB peak
+[2020.02.18-20.09.52:665][960]LogMemory: Physical Memory: 4760.27 MB used,  11564.35 MB free, 16324.62 MB total
+[2020.02.18-20.09.52:665][960]LogMemory: Virtual Memory: 2367.31 MB used,  11564.35 MB free, 134217728.00 MB total
+[2020.02.18-20.09.52:665][960]LogMemory: 
+[2020.02.18-20.09.52:665][960]Allocator Stats for TBB: (not implemented)
+[2020.02.18-20.09.53:239][960]LogTexture:Display: Building textures: carrot-2 (BGRA8, 17X19)
+[2020.02.18-20.09.53:239][960]LogTexture:Display: Building textures: carrot-4 (BGRA8, 17X19)
+[2020.02.18-20.09.53:239][960]LogTexture:Display: Building textures: sign (BGRA8, 18X20)
+[2020.02.18-20.09.53:256][960]LogTexture:Display: Building textures: cenário__3_ (BGRA8, 512X512)
+[2020.02.18-20.09.53:290][960]LogAudioDerivedData:Display: Criando onda OGG platformer_level03__online-audio-converter_com_ do formato de áudio compactado
+[2020.02.18-20.09.55:279][960]LogTexture:Display: Building textures: vine (BGRA8, 41X53)
+[2020.02.18-20.09.55:279][960]LogTexture:Display: Building textures: tree (BGRA8, 105X93)
+[2020.02.18-20.09.55:281][960]LogTexture:Display: Building textures: tree1 (BGRA8, 213X223)
+[2020.02.18-20.09.55:285][960]LogTexture:Display: Building textures: skulls (BGRA8, 16X10)
+[2020.02.18-20.09.55:285][960]LogTexture:Display: Building textures: carrot-1 (BGRA8, 17X19)
+[2020.02.18-20.09.55:315][960]LogTexture:Display: Building textures: rock (BGRA8, 28X15)
+[2020.02.18-20.09.55:316][960]LogTexture:Display: Building textures: rock1 (BGRA8, 49X29)
+[2020.02.18-20.09.55:319][960]LogTexture:Display: Building textures: cenário__9_ (BGRA8, 624X304)
+[2020.02.18-20.09.55:351][960]LogTexture:Display: Building textures: cenário__4_ (BGRA8, 1456X464)
+[2020.02.18-20.09.55:410][960]LogTexture:Display: Building textures: bush (BGRA8, 46X28)
+[2020.02.18-20.09.55:780][960]LogAIModule: Creating AISystem for world Map1
+[2020.02.18-20.09.55:781][960]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.09.55:804][960]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2020.02.18-17.09.55
+[2020.02.18-20.09.55:808][960]LogWorld: Bringing up level for play took: 0.025846
+[2020.02.18-20.09.55:810][960]LogLoad: Took 3.173453 seconds to LoadMap(/Game/Game/Map1)
+[2020.02.18-20.09.55:840][961]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089107 > MaxSimulationTimeStep (0.050) for 'MainChar_C_0', movement 'Walking'
+[2020.02.18-20.10.25:802][308]LogNet: Browse: /Game/Game/Map2
+[2020.02.18-20.10.25:803][308]LogLoad: LoadMap: /Game/Game/Map2
+[2020.02.18-20.10.25:821][308]Cmd: MEM
+[2020.02.18-20.10.25:831][308]LogMemory: Platform Memory Stats for Windows
+[2020.02.18-20.10.25:831][308]LogMemory: Process Physical Memory: 1118.91 MB used, 1185.44 MB peak
+[2020.02.18-20.10.25:831][308]LogMemory: Process Virtual Memory: 1615.64 MB used, 1781.55 MB peak
+[2020.02.18-20.10.25:832][308]LogMemory: Physical Memory: 4803.55 MB used,  11521.07 MB free, 16324.62 MB total
+[2020.02.18-20.10.25:832][308]LogMemory: Virtual Memory: 2512.56 MB used,  11521.07 MB free, 134217728.00 MB total
+[2020.02.18-20.10.25:832][308]LogMemory: 
+[2020.02.18-20.10.25:832][308]Allocator Stats for TBB: (not implemented)
+[2020.02.18-20.10.26:179][308]LogTexture:Display: Building textures: back (BGRA8, 384X240)
+[2020.02.18-20.10.26:187][308]LogTexture:Display: Building textures: house (BGRA8, 193X165)
+[2020.02.18-20.10.26:215][308]LogAIModule: Creating AISystem for world Map2
+[2020.02.18-20.10.26:216][308]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.10.26:234][308]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map2.Map2 up for play (max tick rate 0) at 2020.02.18-17.10.26
+[2020.02.18-20.10.26:235][308]LogWorld: Bringing up level for play took: 0.018104
+[2020.02.18-20.10.26:237][308]LogLoad: Took 0.434562 seconds to LoadMap(/Game/Game/Map2)
+[2020.02.18-20.10.53:197][543]LogNet: Browse: /Game/Game/Map3
+[2020.02.18-20.10.53:197][543]LogLoad: LoadMap: /Game/Game/Map3
+[2020.02.18-20.10.53:211][543]Cmd: MEM
+[2020.02.18-20.10.53:223][543]LogMemory: Platform Memory Stats for Windows
+[2020.02.18-20.10.53:223][543]LogMemory: Process Physical Memory: 1117.32 MB used, 1185.44 MB peak
+[2020.02.18-20.10.53:223][543]LogMemory: Process Virtual Memory: 1589.04 MB used, 1781.55 MB peak
+[2020.02.18-20.10.53:223][543]LogMemory: Physical Memory: 4719.64 MB used,  11604.97 MB free, 16324.62 MB total
+[2020.02.18-20.10.53:223][543]LogMemory: Virtual Memory: 2613.50 MB used,  11604.97 MB free, 134217728.00 MB total
+[2020.02.18-20.10.53:223][543]LogMemory: 
+[2020.02.18-20.10.53:223][543]Allocator Stats for TBB: (not implemented)
+[2020.02.18-20.10.53:451][543]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.10.53:451][543]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.10.53:478][543]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.10.53
+[2020.02.18-20.10.53:482][543]LogWorld: Bringing up level for play took: 0.030438
+[2020.02.18-20.10.53:484][543]LogLoad: Took 0.287357 seconds to LoadMap(/Game/Game/Map3)
+[2020.02.18-20.11.44:131][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Game/menu/inicio.inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio' with GeneratedClass '/Game/Game/menu/inicio.inicio_C' with ClassGeneratedBy '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio'
+[2020.02.18-20.11.44:375][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Game/menu/inicio.inicio:PersistentLevel' has LevelScriptBlueprint '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio' with GeneratedClass '/Game/Game/menu/inicio.inicio_C' with ClassGeneratedBy '/Game/Game/menu/inicio.inicio:PersistentLevel.inicio'
+[2020.02.18-20.11.49:070][171]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.18-20.11.49:188][171]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.11.49:249][171]Cmd: MAP LOAD FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.18-20.11.49:249][171]LightingResults: New page: Compilação de Iluminação
+[2020.02.18-20.11.49:250][171]LoadErrors: New page: Carregando mapa: Map3.umap
+[2020.02.18-20.11.49:250][171]MapCheck: New page: Verificação de Mapa
+[2020.02.18-20.11.49:250][171]LightingResults: New page: Compilação de Iluminação
+[2020.02.18-20.11.49:299][171]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.18-20.11.49:355][171]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.18-20.11.49:423][171]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 68,378ms to complete.
+[2020.02.18-20.11.49:423][171]LogFileHelpers: Loading map 'Map3' took 0.175
+[2020.02.18-20.12.10:577][207]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2020.02.18-20.12.11:179][207]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.18-20.12.11:285][207]LogSlate: Took 0.006273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.18-20.12.15:457][539]LogSlate: Took 0.005984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.18-20.12.27:253][592]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.12.27:777][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.12.27:817][627]LogSavePackage: Save=23.08ms
+[2020.02.18-20.12.27:817][627]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/FlechaE94D47D541720EE483476CB9646BFB14.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.12.27:821][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.12.29:457][787]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.12.29:492][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.12.29:493][787]PIE: New page: Sessão de PIE : Map3 (18/02/2020 14:12:29)
+[2020.02.18-20.12.29:493][787]LogPlayLevel: Creating play world package: /Game/Game/UEDPIE_0_Map3
+[2020.02.18-20.12.29:496][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003780s)
+[2020.02.18-20.12.29:497][787]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.12.29:497][787]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2020.02.18-20.12.29:497][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Map3.Map3 to /Game/Game/UEDPIE_0_Map3.Map3 (0.004592s)
+[2020.02.18-20.12.29:515][787]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.12.29:525][787]LogInit: FAudioDevice initialized.
+[2020.02.18-20.12.29:565][787]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.12.29:583][787]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.12.29
+[2020.02.18-20.12.29:588][787]LogWorld: Bringing up level for play took: 0.021543
+[2020.02.18-20.12.29:594][787]PIE: Informações Momento de início de reprodução no editor para /Game/Game/UEDPIE_0_Map3 -0,551
+[2020.02.18-20.12.47:101][447]LogRenderer: Reallocating scene render targets to support 1292x900 NumSamples 1 (Frame:1).
+[2020.02.18-20.12.57:633][456]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.12.58:261][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.12.58:291][502]LogSavePackage: Save=20.46ms
+[2020.02.18-20.12.58:291][502]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha554E03C34A405F9E4B8D43945F4D5DA9.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.12.58:293][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.13.00:141][684]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.13.00:167][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.13.00:167][684]PIE: New page: Sessão de PIE : Map3 (18/02/2020 14:13:00)
+[2020.02.18-20.13.00:167][684]LogPlayLevel: Creating play world package: /Game/Game/UEDPIE_0_Map3
+[2020.02.18-20.13.00:171][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003969s)
+[2020.02.18-20.13.00:171][684]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.13.00:172][684]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2020.02.18-20.13.00:172][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Map3.Map3 to /Game/Game/UEDPIE_0_Map3.Map3 (0.004778s)
+[2020.02.18-20.13.00:189][684]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.13.00:199][684]LogInit: FAudioDevice initialized.
+[2020.02.18-20.13.00:239][684]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.13.00:259][684]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.13.00
+[2020.02.18-20.13.00:264][684]LogWorld: Bringing up level for play took: 0.023580
+[2020.02.18-20.13.00:270][684]PIE: Informações Momento de início de reprodução no editor para /Game/Game/UEDPIE_0_Map3 0,124
+[2020.02.18-20.13.59:926][438]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.14.00:414][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.14.00:442][465]LogSavePackage: Save=19.04ms
+[2020.02.18-20.14.00:442][465]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha756AB73F45B4448544D0F5A7843AF9EB.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.14.00:445][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.14.02:371][654]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.14.02:395][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.14.02:395][654]PIE: New page: Sessão de PIE : Map3 (18/02/2020 14:14:02)
+[2020.02.18-20.14.02:395][654]LogPlayLevel: Creating play world package: /Game/Game/UEDPIE_0_Map3
+[2020.02.18-20.14.02:399][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003912s)
+[2020.02.18-20.14.02:400][654]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.14.02:400][654]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2020.02.18-20.14.02:400][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Map3.Map3 to /Game/Game/UEDPIE_0_Map3.Map3 (0.004730s)
+[2020.02.18-20.14.02:417][654]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.14.02:427][654]LogInit: FAudioDevice initialized.
+[2020.02.18-20.14.02:468][654]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.14.02:486][654]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.14.02
+[2020.02.18-20.14.02:490][654]LogWorld: Bringing up level for play took: 0.021359
+[2020.02.18-20.14.02:496][654]PIE: Informações Momento de início de reprodução no editor para /Game/Game/UEDPIE_0_Map3 0,35
+[2020.02.18-20.14.15:712][896]LogEditorTransaction: Undo Delete current selection
+[2020.02.18-20.14.15:728][896]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.18-20.14.15:979][916]LogEditorTransaction: Undo Adicionar Nó
+[2020.02.18-20.14.16:581][968]LogEditorTransaction: Undo Delete current selection
+[2020.02.18-20.14.16:878][994]LogEditorTransaction: Undo Mover Nó
+[2020.02.18-20.14.17:140][ 17]LogEditorTransaction: Undo Mover Nó
+[2020.02.18-20.14.30:143][222]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.14.30:150][222]LogBlueprint:Error: [Compiler Flecha] Erro This blueprint (self) is not a SceneComponent, therefore ' Alvo ' must have a connection.
+[2020.02.18-20.14.30:411][222]BlueprintEditorCompileResults:Error: Erro This blueprint (self) is not a SceneComponent, therefore ' Alvo ' must have a connection.
+[2020.02.18-20.14.30:411][222]LogBlueprint:Warning: [Compiler Flecha] Advertência [0411,74] Compile of Flecha failed. 1 Fatal Issue(s) 0 Warning(s) [in 268 ms] (/Game/Game/Character/tiro/Flecha.Flecha)
+[2020.02.18-20.14.30:736][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.14.30:767][250]LogSavePackage: Save=21.84ms
+[2020.02.18-20.14.30:767][250]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha18F3E457469AB7615E2DB588FF69D54C.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.14.30:771][250]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.14.53:418][307]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.14.53:426][307]LogBlueprint:Error: [Compiler Flecha] Erro O tipo de  Object  está indeterminado. Conecte algo a  Projetar para Flecha  para implicar um tipo específico.
+[2020.02.18-20.14.53:426][307]LogBlueprint:Error: [Compiler Flecha] Erro The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.02.18-20.14.53:653][307]BlueprintEditorCompileResults:Error: Erro O tipo de  Object  está indeterminado. Conecte algo a  Projetar para Flecha  para implicar um tipo específico.
+[2020.02.18-20.14.53:653][307]BlueprintEditorCompileResults:Error: Erro The current value of the ' Object ' pin is invalid: Unsupported type Objeto Wildcard on pin Object
+[2020.02.18-20.14.53:653][307]LogBlueprint:Warning: [Compiler Flecha] Advertência [0434,99] Compile of Flecha failed. 2 Fatal Issue(s) 0 Warning(s) [in 234 ms] (/Game/Game/Character/tiro/Flecha.Flecha)
+[2020.02.18-20.14.53:860][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.14.53:893][324]LogSavePackage: Save=23.34ms
+[2020.02.18-20.14.53:893][324]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha328C2B20444CE22EF780AD9FEEEC6C28.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.14.53:896][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.14.59:342][834]Cmd: TRANSACTION UNDO
+[2020.02.18-20.14.59:343][834]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2020.02.18-20.14.59:573][850]Cmd: TRANSACTION UNDO
+[2020.02.18-20.14.59:573][850]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2020.02.18-20.14.59:822][867]Cmd: TRANSACTION UNDO
+[2020.02.18-20.14.59:822][867]LogEditorTransaction: Undo Mover Nó
+[2020.02.18-20.15.00:231][901]Cmd: TRANSACTION UNDO
+[2020.02.18-20.15.00:231][901]LogEditorTransaction: Undo Mover Nó
+[2020.02.18-20.15.00:596][932]Cmd: TRANSACTION UNDO
+[2020.02.18-20.15.00:596][932]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2020.02.18-20.15.00:829][950]Cmd: TRANSACTION UNDO
+[2020.02.18-20.15.00:829][950]LogEditorTransaction: Undo Mover Nó
+[2020.02.18-20.15.01:303][991]Cmd: TRANSACTION UNDO
+[2020.02.18-20.15.01:303][991]LogEditorTransaction: Undo Adicionar Nó
+[2020.02.18-20.15.23:367][917]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.15.26:292][153]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.15.26:315][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.15.26:316][153]PIE: New page: Sessão de PIE : Map3 (18/02/2020 14:15:26)
+[2020.02.18-20.15.26:316][153]LogPlayLevel: Creating play world package: /Game/Game/UEDPIE_0_Map3
+[2020.02.18-20.15.26:319][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003755s)
+[2020.02.18-20.15.26:320][153]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.15.26:320][153]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2020.02.18-20.15.26:320][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Map3.Map3 to /Game/Game/UEDPIE_0_Map3.Map3 (0.004540s)
+[2020.02.18-20.15.26:337][153]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.15.26:347][153]LogInit: FAudioDevice initialized.
+[2020.02.18-20.15.26:389][153]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.15.26:406][153]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.15.26
+[2020.02.18-20.15.26:411][153]LogWorld: Bringing up level for play took: 0.020652
+[2020.02.18-20.15.26:418][153]PIE: Informações Momento de início de reprodução no editor para /Game/Game/UEDPIE_0_Map3 0,272
+[2020.02.18-20.16.32:897][377]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.16.33:318][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.16.33:349][402]LogSavePackage: Save=21.97ms
+[2020.02.18-20.16.33:349][402]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/FlechaDD260FC54BC013B5559C4F8F596A1C47.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.16.33:352][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.16.35:309][589]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2020.02.18-20.16.35:332][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.18-20.16.35:333][589]PIE: New page: Sessão de PIE : Map3 (18/02/2020 14:16:35)
+[2020.02.18-20.16.35:333][589]LogPlayLevel: Creating play world package: /Game/Game/UEDPIE_0_Map3
+[2020.02.18-20.16.35:336][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003743s)
+[2020.02.18-20.16.35:337][589]LogAIModule: Creating AISystem for world Map3
+[2020.02.18-20.16.35:337][589]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2020.02.18-20.16.35:337][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Game/Map3.Map3 to /Game/Game/UEDPIE_0_Map3.Map3 (0.004581s)
+[2020.02.18-20.16.35:355][589]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.18-20.16.35:365][589]LogInit: FAudioDevice initialized.
+[2020.02.18-20.16.35:403][589]LogLoad: Game class is 'Game1_C'
+[2020.02.18-20.16.35:422][589]LogWorld: Bringing World /Game/Game/UEDPIE_0_Map3.Map3 up for play (max tick rate 0) at 2020.02.18-17.16.35
+[2020.02.18-20.16.35:428][589]LogWorld: Bringing up level for play took: 0.023205
+[2020.02.18-20.16.35:434][589]PIE: Informações Momento de início de reprodução no editor para /Game/Game/UEDPIE_0_Map3 -0,711
+[2020.02.18-20.17.34:177][244]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Saga/Desktop/player-climb-1.png)
+[2020.02.18-20.17.34:197][244]LogTexture:Display: Building textures: player-climb-1 (BGRA8, 37X32)
+[2020.02.18-20.17.34:232][244]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Saga/Desktop/player-climb-2.png)
+[2020.02.18-20.17.34:245][244]LogTexture:Display: Building textures: player-climb-2 (BGRA8, 37X32)
+[2020.02.18-20.17.34:268][244]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Saga/Desktop/player-climb-3.png)
+[2020.02.18-20.17.34:280][244]LogTexture:Display: Building textures: player-climb-3 (BGRA8, 37X32)
+[2020.02.18-20.17.34:303][244]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Saga/Desktop/player-climb-4.png)
+[2020.02.18-20.17.34:316][244]LogTexture:Display: Building textures: player-climb-4 (BGRA8, 37X32)
+[2020.02.18-20.17.53:300][297]LogRenderer: Reallocating scene render targets to support 1528x920 NumSamples 1 (Frame:1).
+[2020.02.18-20.18.02:794][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/player-climb-1_Sprite" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-1_Sprite.uasset" SILENT=true
+[2020.02.18-20.18.02:806][136]LogSavePackage: Save=9.66ms
+[2020.02.18-20.18.02:806][136]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-1_SpriteB5F62A7C44F12CE232009B96DE1DDA94.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-1_Sprite.uasset'
+[2020.02.18-20.18.02:808][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-1_Sprite.uasset
+[2020.02.18-20.18.12:394][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/player-climb-2_Sprite" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-2_Sprite.uasset" SILENT=true
+[2020.02.18-20.18.12:406][938]LogSavePackage: Save=9.74ms
+[2020.02.18-20.18.12:406][938]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-2_SpriteE645557A494BD4B0F4BBFBBA6C40ED98.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-2_Sprite.uasset'
+[2020.02.18-20.18.12:410][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-2_Sprite.uasset
+[2020.02.18-20.18.19:422][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/player-climb-3_Sprite" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-3_Sprite.uasset" SILENT=true
+[2020.02.18-20.18.19:435][538]LogSavePackage: Save=8.96ms
+[2020.02.18-20.18.19:435][538]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-3_SpriteD4DA7B7B42F0848699F6628437E1B608.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-3_Sprite.uasset'
+[2020.02.18-20.18.19:438][538]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-3_Sprite.uasset
+[2020.02.18-20.18.24:507][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/player-climb-4_Sprite" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-4_Sprite.uasset" SILENT=true
+[2020.02.18-20.18.24:519][991]LogSavePackage: Save=9.37ms
+[2020.02.18-20.18.24:519][991]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-4_SpriteBF633CA5436D4606EEDA0CBFF68C034D.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-4_Sprite.uasset'
+[2020.02.18-20.18.24:522][991]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/player-climb-4_Sprite.uasset
+[2020.02.18-20.19.00:149][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/escada" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escada.uasset" SILENT=true
+[2020.02.18-20.19.00:159][171]LogSavePackage: Save=8.07ms
+[2020.02.18-20.19.00:159][171]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/escada6D896A3749CAD5AB2343DF80FB32EE56.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escada.uasset'
+[2020.02.18-20.19.00:162][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escada.uasset
+[2020.02.18-20.20.31:810][332]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.20.32:380][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.20.32:416][369]LogSavePackage: Save=18.31ms
+[2020.02.18-20.20.32:416][369]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha38D57FAE4886059788AA20B10BAFF178.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.20.32:418][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.21.48:661][145]BlueprintLog: New page: Compilar MainChar
+[2020.02.18-20.21.49:591][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/MainChar" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset" SILENT=true
+[2020.02.18-20.21.49:808][167]LogSavePackage: Save=198.35ms
+[2020.02.18-20.21.49:808][167]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/MainCharBCFE557D4C2F5F67E0F93FBD1F99174A.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset'
+[2020.02.18-20.21.49:811][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset
+[2020.02.18-20.21.55:835][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/acoes" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/acoes.uasset" SILENT=true
+[2020.02.18-20.21.55:855][532]LogSavePackage: Save=5.79ms
+[2020.02.18-20.21.55:855][532]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/acoes0D1BB6164BD1FA02C39910BBCD5E410F.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/acoes.uasset'
+[2020.02.18-20.21.55:859][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/acoes.uasset
+[2020.02.18-20.21.58:006][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/MainChar" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset" SILENT=true
+[2020.02.18-20.21.58:201][654]LogSavePackage: Save=185.62ms
+[2020.02.18-20.21.58:201][654]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/MainCharEF7F372A4C9A62611B946883C78F8B09.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset'
+[2020.02.18-20.21.58:206][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/MainChar.uasset
+[2020.02.18-20.22.24:147][590]BlueprintLog: New page: Compilar Flecha
+[2020.02.18-20.22.24:877][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/tiro/Flecha" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset" SILENT=true
+[2020.02.18-20.22.24:902][638]LogSavePackage: Save=16.21ms
+[2020.02.18-20.22.24:902][638]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/Flecha8400D9AE422947B5A75CF0811196650A.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset'
+[2020.02.18-20.22.24:906][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/Character/tiro/Flecha.uasset
+[2020.02.18-20.23.10:979][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Game/Map3' took 0.022
+[2020.02.18-20.23.10:982][ 35]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/BluePrint/escada/player-climb-1] ([1] browsable assets)...
+[2020.02.18-20.23.10:983][ 35]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/BluePrint/escada/player-climb-1.player-climb-1]
+[2020.02.18-20.23.10:983][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BluePrint/escada/player-climb-1]
+[2020.02.18-20.23.10:991][ 35]LogSavePackage: Save=5.99ms
+[2020.02.18-20.23.10:991][ 35]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-1_Auto11610922D46680800AD6221A380E59C6C.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-1_Auto1.uasset'
+[2020.02.18-20.23.10:992][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-1_Auto1.uasset
+[2020.02.18-20.23.10:993][ 35]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/BluePrint/escada/player-climb-2] ([1] browsable assets)...
+[2020.02.18-20.23.10:994][ 35]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/BluePrint/escada/player-climb-2.player-climb-2]
+[2020.02.18-20.23.10:994][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BluePrint/escada/player-climb-2]
+[2020.02.18-20.23.11:002][ 35]LogSavePackage: Save=5.72ms
+[2020.02.18-20.23.11:002][ 35]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-2_Auto18852A62C46F670B1EE71618CA9F8E814.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-2_Auto1.uasset'
+[2020.02.18-20.23.11:004][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-2_Auto1.uasset
+[2020.02.18-20.23.11:004][ 35]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/BluePrint/escada/player-climb-3] ([1] browsable assets)...
+[2020.02.18-20.23.11:006][ 35]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/BluePrint/escada/player-climb-3.player-climb-3]
+[2020.02.18-20.23.11:006][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BluePrint/escada/player-climb-3]
+[2020.02.18-20.23.11:014][ 35]LogSavePackage: Save=5.93ms
+[2020.02.18-20.23.11:014][ 35]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-3_Auto16E13108F4242A9FBAB6933ABE71E113E.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-3_Auto1.uasset'
+[2020.02.18-20.23.11:016][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-3_Auto1.uasset
+[2020.02.18-20.23.11:016][ 35]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/BluePrint/escada/player-climb-4] ([1] browsable assets)...
+[2020.02.18-20.23.11:017][ 35]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/BluePrint/escada/player-climb-4.player-climb-4]
+[2020.02.18-20.23.11:017][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BluePrint/escada/player-climb-4]
+[2020.02.18-20.23.11:025][ 35]LogSavePackage: Save=5.69ms
+[2020.02.18-20.23.11:025][ 35]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/player-climb-4_Auto165876D2A4654DFC22B9DCDBC2F9B7C4D.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-4_Auto1.uasset'
+[2020.02.18-20.23.11:026][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Saved/Autosaves/Game/Game/BluePrint/escada/player-climb-4_Auto1.uasset
+[2020.02.18-20.23.11:026][ 35]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.02.18-20.24.13:056][551]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Saga/Desktop/platform-long.png)
+[2020.02.18-20.24.13:072][551]LogTexture:Display: Building textures: platform-long (AutoDXT, 32X16)
+[2020.02.18-20.24.17:528][ 32]LogTexture:Display: Building textures: platform-long (BGRA8, 32X16)
+[2020.02.18-20.24.53:161][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/escadaProp" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset" SILENT=true
+[2020.02.18-20.24.53:176][624]LogSavePackage: Save=12.98ms
+[2020.02.18-20.24.53:176][624]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/escadaPropF37B369A4D8E901652976FA572285FA7.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset'
+[2020.02.18-20.24.53:179][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset
+[2020.02.18-20.26.25:024][939]LogEditorViewport: Clicking on Actor (LMB): opossum_class_C (opossum_class8)
+[2020.02.18-20.26.36:828][ 28]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (level3)
+[2020.02.18-20.26.37:500][ 63]LogEditorViewport: Clicking on Actor (LMB): opossum_class_C (opossum_class2)
+[2020.02.18-20.27.26:379][677]LogSlate: Took 0.006437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.18-20.28.07:828][974]LogClass:Warning: Type mismatch in rungoffset of SKEL_escadaProp_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2020.02.18-20.28.09:698][116]LogClass:Warning: Type mismatch in CollisionWidth of SKEL_escadaProp_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2020.02.18-20.28.50:012][279]BlueprintLog: New page: Compilar escadaProp
+[2020.02.18-20.28.51:064][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BluePrint/escada/escadaProp" FILE="../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset" SILENT=true
+[2020.02.18-20.28.51:094][330]LogSavePackage: Save=13.89ms
+[2020.02.18-20.28.51:094][330]LogSavePackage: Moving '../../../../../../Users/Saga/Desktop/Game1/Saved/escadaProp025F02D24B7652ABD1A8D0B34CE9DF6F.tmp' to '../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset'
+[2020.02.18-20.28.51:097][330]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Saga/Desktop/Game1/Content/Game/BluePrint/escada/escadaProp.uasset
+[2020.02.18-20.28.56:271][757]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_12:PersistentLevel.escadaProp_C_0.escadaProp'.  Not spawning Actor of class 'escadaProp_C' to break.
+[2020.02.18-20.28.56:307][757]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_12:PersistentLevel.escadaProp_C_0.escadaProp'.  Not spawning Actor of class 'escadaProp_C' to break.
+[2020.02.18-20.29.05:741][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.02.18-20.29.05:814][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.02.18-20.29.06:311][ 59]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.263 s
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: === Handled ensure: ===
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: 
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ChildActorComponent.cpp] [Line: 95]
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: Found unexpected ChildActorTemplate REINST_escadaProp_C_231 /Engine/Transient.REINST_escadaProp_C_231:escadaProp_GEN_VARIABLE.escadaProp_GEN_VARIABLE_escadaProp_C_CAT when ChildActorClass is null
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: Stack: 
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FFE2B6
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3DAB8C2
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3DC1E86
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000E0DF1F11
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E459C9C3
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE748775
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE9BD518
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEE1A47C
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEE18C71
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE67BE99
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE8E9BF2
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE865E22
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE868859
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE8E3A75
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0218F57
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0245D7B
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0069E9C
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0039835
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00DE5E2
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00C720F
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00B8391
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF175B
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FDB7D1
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF33DB
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FD7B22
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: USER32.dll!0x00000000202BB85D
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: USER32.dll!0x00000000202BB1EF
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF3C49
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00E9A86
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0073013
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DE974B7F
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEE0C735
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DEE0BEC6
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000E6219D11
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000E6350883
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000E6325121
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000E632CFF6
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E007EB50
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00C3D60
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000E6380BF9
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E0069021
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E003840E
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E003A006
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00C55AD
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E00B6518
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF149C
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FDB7D1
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF33DB
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FD7B22
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: USER32.dll!0x00000000202BB85D
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: USER32.dll!0x00000000202BB1EF
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E3FF3CE6
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor.exe!0x000000008D7EDB44
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor.exe!0x000000008D7DF0B0
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor.exe!0x000000008D7DF12A
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor.exe!0x000000008D7F0CF9
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: UE4Editor.exe!0x000000008D7F25F7
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: KERNEL32.DLL!0x000000001FFC1FE4
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: ntdll.dll!0x000000002243F061
+[2020.02.18-20.29.06:311][ 59]LogOutputDevice:Error: 
+[2020.02.18-20.29.06:318][ 59]LogStats:                SubmitErrorReport -  0.000 s
