@@ -16,5 +16,5 @@ class REWIND_API USaveGameMetadata : public USaveGame
 	GENERATED_BODY()
 	public:
 	UPROPERTY(VisibleAnywhere, Category = "Default")
-	TMap<FString, FSaveMetadata> SaveGamesMetadata;
+	TMap<FString, FSaveMetadata> SavedGamesMetadata;
 };

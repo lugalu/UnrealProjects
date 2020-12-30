@@ -8,7 +8,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 FString USaveManager::CurrentSaveSlot;
 static const FString KMetadataSaveSlot = "SaveGameMetadata";
-static const int32 KMaxSaveSlot =100;
+static const int32 KMaxSaveSlot = 100;
  TArray<TScriptInterface<ISaveInterface>> USaveManager::SaveInterfaces;
 
 void USaveManager::Init(){
@@ -61,7 +61,7 @@ void USaveManager::SaveGame(){																													//Create a new Save G
 																																				//Update the metadata file with the new slot
 	USaveGameMetadata* SaveGameMetadata = Cast<USaveGameMetadata>(UGameplayStatics::LoadGameFromSlot(KMetadataSaveSlot,0));
 
-	FSaveMetadata& SaveMetadata = SaveGameMetadata->SaveGamesMetadata.FindOrAdd(CurrentSaveSlot);
+	FSaveMetadata& SaveMetadata = SaveGameMetadata->SavedGamesMetadata.FindOrAdd(CurrentSaveSlot);
 
 	SaveMetadata.SlotName=CurrentSaveSlot;
 	SaveMetadata.Date = FDateTime::Now();
@@ -80,7 +80,7 @@ void USaveManager::LoadGame(){
 		SaveGameData = Cast<USaveGameData>( UGameplayStatics::LoadGameFromSlot(CurrentSaveSlot,0));									//Reload the save Game
 	}
 
-	//Loop over all the actors that need to lad the data
+	//Loop over all the actors that need to load the data
 	for (auto& SaveInterface: SaveInterfaces){
 		if (SaveInterface.GetObject()==nullptr){
 			continue;
@@ -107,7 +107,7 @@ void USaveManager::DeleteSlot(const FString& Slot){
 
 	USaveGameMetadata* SaveGameMetadata = Cast<USaveGameMetadata>(UGameplayStatics::LoadGameFromSlot(KMetadataSaveSlot,0));			//Loading the metadata slot
 
-	SaveGameMetadata->SaveGamesMetadata.Remove(Slot);
+	SaveGameMetadata->SavedGamesMetadata.Remove(Slot);
 
 	UGameplayStatics::SaveGameToSlot(SaveGameMetadata,KMetadataSaveSlot,0);																//Save the metadata file
 }
@@ -120,7 +120,7 @@ FString USaveManager::GetNewSaveSlot(bool& Slot_found){
 	for (int32 i=0;i<KMaxSaveSlot;++i){
 		FString SlotName = "SaveSlot" + FString::FromInt(i);
 
-		if(!SaveGameMetadata->SaveGamesMetadata.Contains(SlotName)){
+		if(!SaveGameMetadata->SavedGamesMetadata.Contains(SlotName)){
 			Slot_found=true;
 			return SlotName;
 		}
@@ -143,9 +143,9 @@ TArray<FSaveMetadata> USaveManager::GetAllSaveMetadata(){
 
 	USaveGameMetadata* SaveGameMetadata = Cast<USaveGameMetadata>(UGameplayStatics::LoadGameFromSlot(KMetadataSaveSlot,0));
 
-	Metadata.Reserve(SaveGameMetadata->SaveGamesMetadata.Num());
+	Metadata.Reserve(SaveGameMetadata->SavedGamesMetadata.Num());
 
-	for (const auto& Saved_game : SaveGameMetadata->SaveGamesMetadata){
+	for (const auto& Saved_game : SaveGameMetadata->SavedGamesMetadata){
 		Metadata.Push(Saved_game.Value);
 	}
 	return Metadata;

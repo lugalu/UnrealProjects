@@ -25,7 +25,7 @@ class REWIND_API ISaveInterface
 	UFUNCTION(BlueprintNativeEvent,Category="SaveInterface")
     FString GetUniqueSaveName();																						//Unique name to use when saving
 
-	UFUNCTION(BlueprintNativeEvent,Category="SaveInteface")
+	UFUNCTION(BlueprintNativeEvent,Category="SaveInterface")
     void OnBeforeSave();																								//CalledBefore the owing actor is saved
 
 	
