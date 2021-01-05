@@ -47,7 +47,7 @@ void USaveManager::SaveGame(){																													//Create a new Save G
 		}
 
 		SaveInterface->Execute_OnBeforeSave(SaveInterface.GetObject());																			//Let the object know that it's about to be saved
-		FString UniqueSaveName = SaveInterface->Execute_GetUniqueSaveName(SaveInterface.GetObject());											//Find the object's save data using it's unique name
+		FString UniqueSaveName = SaveInterface->Execute_GetUniqueSaveName(SaveInterface.GetObject());									//Find the object's save data using it's unique name
 		FSaveData& SaveData = SaveGameData->SerializedData.Add(UniqueSaveName);
 
 		FMemoryWriter MemoryWriter = FMemoryWriter(SaveData.Data);
